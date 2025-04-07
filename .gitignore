@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+.eth_vuln_scanner.json
+report*.md
+report*.json
+report*.txt
+contracts/
+temp/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Ethereum specific
+node_modules/
+.solc-select/
+.solcx/
+.mythril/
+.slither/
